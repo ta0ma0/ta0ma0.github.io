@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Genres scanner"
-date: 2023-04-04 21:33:00 -0000
+date: 2023-04-04 21:33:00 +0400
 categories: [Ideas, Music, Programming, Diagram]
 ---
 
