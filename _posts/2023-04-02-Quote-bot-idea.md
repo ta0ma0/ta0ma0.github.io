@@ -1,8 +1,9 @@
+---
 layout: post
 title: "Cyberpunk quote bot"
 date: 2023-04-02 15:40:00 -0000
 categories: Ideas Telegram Programming Python
-
+---
 
 ![tg-sample](https://github.com/ta0ma0/ta0ma0.github.io/blob/main/_images/tg-bot-sample.png)
 
