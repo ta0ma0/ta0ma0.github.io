@@ -2,7 +2,7 @@
 layout: post
 title: "Genres scanner"
 date: 2023-04-04 21:33:00 -0000
-categories: Ideas Music Programming Diagram
+categories: [Ideas, Music, Programming, Diagram]
 ---
 
 ![diagram](/docs/assets/genre_image_crop.png)
