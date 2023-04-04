@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ta0ma0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Tao_Mao
 github_username:  ta0ma0
-category_path: /assets/
+#category_path: /assets/
 #permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
