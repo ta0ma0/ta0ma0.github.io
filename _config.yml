@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ideas and Implementation (I&I Blog)
+title: Ideas and Implementation
 email: ruslan.akm@gmail.com
 description: Engenieering and Python development notes
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,7 +32,7 @@ permalink: /:year/:month/:day/:title:output_ext
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-category-pages
+    #  - jekyll-category-pages
 
 
 # Exclude from processing.
