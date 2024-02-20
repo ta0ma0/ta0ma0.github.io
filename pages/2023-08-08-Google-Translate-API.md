@@ -5,7 +5,12 @@ date: 2023-08-08 14:30:00 +0400
 categories: [APT, Translate, TTS, Lessons]
 ---
 
-![Tolmach](/static/images/tolmach.jpg)
+<!-- ![Tolmach](/static/images/tolmach.jpg) -->
+<picture>
+  <source media="(max-width: 375px)" srcset="/static/images/tolmach-375w.jpg">
+  <source media="(max-width: 640px)" srcset="/static/images/tolmach.jpg">
+  <img src="/static/images/tolmach.jpg" alt="Screenshot">
+</picture>
 
 In the labyrinth of my quest to master the English tongue, six moons have waxed and waned within the conversational enclave. Alas, these fleeting moments merely unveiled the expanse of my linguistic ignorance. Faced with this humbling epiphany, I resolved to embark upon a solitary voyage, where the symphony of my thoughts would find solace in the silence of self-dialogue. A dance with digital lexicons, I partake, engaging in a pas de deux with translators, while meticulously etching the intricate choreography of grammatical rules into the recesses of my cognition.
 
