@@ -13,7 +13,7 @@ for image in *.png *.jpg; do
     # Определяем новое имя файла
     new_image="${image%.*}-375w.${image##*.}"
     # Используем convert для изменения размера
-    convert "$image" -resize 375x "$new_image"
+    convert "$image" -resize 370x "$new_image"
     echo "Создано уменьшенное изображение: $new_image"
   fi
 done
