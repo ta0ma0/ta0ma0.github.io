@@ -1,0 +1,67 @@
+<!doctype html>
+<html style="height: 100%;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ideas & Implementation</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center; /* Центрирует содержимое */
+      flex: 1; /* Разрешает body растягиваться, занимая доступное пространство */
+    }
+    header {
+      background-color: #87CEFA; /* Светло-синий цвет */
+      padding: 10px 0;
+      color: white;
+      font-size: 24px;
+    }
+    ul {
+      list-style: none; /* Убирает стандартные маркеры */
+      padding: 0;
+      margin: 0 auto;
+      max-width: 600px; /* Ограничивает ширину списка */
+      flex: 1; /* Позволяет списку растягиваться */
+    }
+    li {
+      margin: 10px 0; /* Отступы между элементами списка */
+    }
+    footer {
+      padding: 10px 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      header, footer {
+        font-size: 18px;
+        padding: 20px 0;
+      }
+      ul {
+        width: 100%;
+        padding: 0 10px;
+      }
+      li {
+        font-size: 16px; /* Увеличивает размер шрифта для улучшения читаемости */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Ideas & Implementation</header>
+  <ul>
+    {% for post in posts %}
+      <li>{{ loop.index }}. <a href="{{ post.path }}">{{ post.meta.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <footer>2024 &copy; Ideas & Implementationi   🚧👷‍♂️⚒️🔜🙏🤞😊</footer>
+</body>
+</html>
+

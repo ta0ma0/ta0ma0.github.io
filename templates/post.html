@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ideas & Implementation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin: auto;
+      padding: 10px;
+      text-align: center; /* Центрирует содержимое */
+    }
+    header {
+      background-color: #87CEFA; /* Светло-синий цвет */
+      padding: 10px 0;
+      color: white;
+      font-size: 24px;
+    }
+    ul {
+      list-style: none; /* Убирает стандартные маркеры */
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin: 10px 0; /* Отступы между элементами списка */
+    }
+    footer {
+      margin-top: 20px;
+      padding: 10px 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    /* Стили для десктопов */
+    @media (min-width: 1024px) {
+      .container {
+        width: 33.33%; /* Ограничивает ширину контейнера одной третью экрана */
+      }
+    }
+
+    /* Стили для мобильных устройств */
+    @media (max-width: 1023px) {
+      .container {
+        width: 100%; /* Контент на всю ширину экрана */
+        padding: 10px; /* Отступы от краёв экрана */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>Ideas & Implementation</header>
+      <h1>{{ post.meta.title }}</h1>
+  	{{ post.html|safe }}
+  <footer>2024 &copy; Ideas & Implementation 🚧👷‍♂️⚒️🔜🙏🤞😊</footer>
+  </div>
+</body>
+</html>
+
