@@ -6,12 +6,13 @@ categories: [APT, Translate, TTS, Lessons]
 ---
 
 <!-- ![Tolmach](/static/images/tolmach.jpg) -->
+<center>
 <picture>
   <source media="(max-width: 375px)" srcset="/static/images/tolmach-375w.jpg">
   <source media="(max-width: 640px)" srcset="/static/images/tolmach.jpg">
   <img src="/static/images/tolmach.jpg" alt="Screenshot">
 </picture>
-
+</center>
 In the labyrinth of my quest to master the English tongue, six moons have waxed and waned within the conversational enclave. Alas, these fleeting moments merely unveiled the expanse of my linguistic ignorance. Faced with this humbling epiphany, I resolved to embark upon a solitary voyage, where the symphony of my thoughts would find solace in the silence of self-dialogue. A dance with digital lexicons, I partake, engaging in a pas de deux with translators, while meticulously etching the intricate choreography of grammatical rules into the recesses of my cognition.
 
 Daily, I inscribe my musings upon the pages of diaries, a testament to my fervent endeavor. This endeavor necessitates an occasional glance upon the architectonics of translation, a scholarly endeavor of dissection and analysis, wherein the syntactic blueprint unfolds before my diligent gaze. The virtual realm of Google's lexical sorcery, though grandiose in its capabilities, proved unwieldy for my intent. Its expansive casement, replete with interface superfluities, veiled the simplicity I sought. Thus, an alternative avenue beckoned – a dominion of command lines, where my comfort resides.
