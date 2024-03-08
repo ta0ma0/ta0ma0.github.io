@@ -17,6 +17,9 @@
       font-family: Arial, sans-serif;
       text-align: center; /* Центрирует содержимое */
       flex: 1; /* Разрешает body растягиваться, занимая доступное пространство */
+      display: grid;
+  grid-template-rows: auto 1fr auto; /* Three rows: content, space, footer */
+  min-height: 100vh;
     }
     header {
       background-color: #87CEFA; /* Светло-синий цвет */
@@ -24,6 +27,11 @@
       color: white;
       font-size: 24px;
     }
+    .articles {
+    margin-top: 70px;
+    margin-left: 20%;
+
+}
     ul {
       list-style: none; /* Убирает стандартные маркеры */
       padding: 0;
@@ -58,11 +66,13 @@
 </head>
 <body>
   <header>Ideas & Implementation</header>
+  <div class="articles">
   <ul>
     {% for post in posts %}
       <li>{{ loop.index }}. <a href="{{ post.path }}">{{ post.meta.title }}</a></li>
     {% endfor %}
   </ul>
+</div>
   <footer>2024 &copy; Ideas & Implementationi   🚧👷‍♂️⚒️🔜🙏🤞😊</footer>
 </body>
 </html>
